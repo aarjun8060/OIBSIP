@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    
+}
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffede7;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+form{
+    border: 1px solid black;
+    min-height: 400px;
+    border-radius:20px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 1rem orangered;
+    background-color: #fff;
+}
+form input[type="number"]{
+    border: 1px solid black;
+    width: 10rem;
+    height:2rem;
+    border-radius: 5px;
+    font-size: larger;
+    box-shadow: 0 0 1rem orangered;
+}
+
+form select{
+    border: 1px solid black;
+    width: 10rem;
+    height:2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem orangered;
+}
+
+.div1 , .div2{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    width: 500px;
+}
+
+
+.btn{
+    display: inline-block;
+    padding: 0.5rem 2.8rem;
+    background: orangered;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem orangered;
+    font-size: 1.6rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600;
+
+}
+#result_container{
+    font-size: 2rem;
+    font-weight: 300;
+
+}

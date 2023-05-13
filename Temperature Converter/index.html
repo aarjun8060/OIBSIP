@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperator Converter Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <div>
+            <label for="temp" class="heading">Please Enter the Temperator you'd like to convert.</label>
+        </div>
+        <div class="div1">
+            <input type="number" name="temp" id="temp">
+
+            <select name="temp_diff" id="temp_diff">
+                <option value="calc">Celsius</option>
+                <option value="fah">Fahrenheit</option>
+                <option value="kel">Kelvin</option>
+            </select>
+        </div>
+        <div class="div2">
+            <span id="result_container"></span>
+            <br> 
+            <select name="temp_con" id="temp_con">
+                <option value="calc">Celsius</option>
+                <option value="fah">Fahrenheit</option>
+                <option value="kel">Kelvin</option>
+            </select>
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+</div>
+    <script  src="index.js"></script>
+</body>
+</html>
